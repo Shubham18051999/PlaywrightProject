@@ -45,7 +45,10 @@ public class reran {
             Locator RRIYW = page.locator("//button[normalize-space()='rank it your way']");
             RRIYW.click();
 
+            //required minimum 3 node to be select to publish list
 
+            Locator node1 = page.locator("//input[@type='next'])[1]");
+            node1.click();
 
 
 
